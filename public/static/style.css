@@ -1,0 +1,44 @@
+body { 
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+	margin: 30px;
+	padding: 20px;
+	border-style: double;
+	border-color: black;
+}
+form { 
+	background: black;
+    padding: 3px;
+    position: fixed;
+    bottom: 20px;
+    width: 90%;
+} 
+
+form input { 
+	border: 0px; 
+	padding: 10px; 
+	width: 91%; 
+	margin-right: .5%; 
+}
+form button { 
+	width: 90px; 
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+	background: red;
+	border: none; 
+	padding: 10px; 
+}
+#messages { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	margin-bottom: 40px
+}
+input{
+	font-size:15px;
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+}
+#messages li {
+ 	padding: 5px 10px; 
+ }
+#messages li:nth-child(odd) { 
+	background: #eee; 
+}
